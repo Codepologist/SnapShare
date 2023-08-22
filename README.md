@@ -29,4 +29,4 @@ You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-Learn more about Sanity, check out the [Read the Sanity docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme).
+Learn more about Sanity, check out the [Sanity docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme).
