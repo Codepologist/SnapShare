@@ -10,13 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@matheusluizn/react-google-login": "^5.1.6",
+    "@sanity/client": "^6.4.9",
+    "@sanity/image-url": "^1.0.2",
     "bulma": "^0.9.4",
     "helmet": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-masonry-css": "^1.0.16",
     "react-router-dom": "^6.15.0",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",
