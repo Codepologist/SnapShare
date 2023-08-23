@@ -4,7 +4,7 @@ Capture and Share Memories with SnapShare: A Photo Sharing FullStack Application
 
 ## Screenshot
 
-![](./src/assets/screenshot.png)
+![](./frontend/src/assets/screenshot.png)
 
 ## Web version
 
