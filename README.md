@@ -1,6 +1,6 @@
 # SnapShare
 
-Capture and Share Memories with SnapShare: A Photo Sharing Application for Everyone.
+Capture and Share Memories with SnapShare: A Photo Sharing FullStack Application for Everyone.
 
 ## Screenshot
 
