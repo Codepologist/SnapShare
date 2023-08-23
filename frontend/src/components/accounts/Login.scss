@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+.mt-8 {
+    margin-top: 2rem !important;
+}
+
+.py-20 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.has-mw-md {
+  max-width: 28rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem !important;
+}
+
+.button.is-dark {
+    background-color: #0A2463 !important;
+    border-color: transparent !important ;
+    color: #fff !important;
+}
+
+.button.is-info {
+    background-color: #45C1FF;
+    border-color: transparent;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .py-12-desktop {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .px-10-desktop {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
+}
