@@ -28,40 +28,64 @@ const Login = () => {
                 />
               </div>
             </div>
-            <button className="button is-medium is-primary is-fullwidth mb-4">
-              Log in
-            </button>
-            <small>
-              <a className="has-text-dark" href="#">
-                Forgot password?
-              </a>
-            </small>
+            <div className="field is-grouped">
+              <p className="control">
+                <button className="button is-medium is-primary mb-4">
+                  Log in
+                </button>
+              </p>
+              <p className="control">
+                <a className="button is-ghost no-focus-outline is-medium has-text-dark">
+                  <span style={{ fontSize: "12px" }}> Forgot password?</span>
+                </a>
+              </p>
+            </div>
+
             <div
-              className="pt-6 mt-8"
+              className="pt-4 mt-4"
               style={{ borderTop: "1px solid #dadfe9" }}
             >
-              <div className="buttons ">
-                <button
-                  className="button is-responsive is-danger is-medium is-fullwidth"
-                  href="#"
-                >
-                  <span className="icon">
-                    <FaGoogle />
-                  </span>
-                  <span>Sign in with Google</span>
-                </button>
-                <button className="button is-responsive is-dark is-medium is-fullwidth">
-                  <span className="icon">
-                    <FaFacebookF />
-                  </span>
-                  <span>Sign in with Facebook</span>
-                </button>
-                <button className="button is-responsive is-info is-medium is-fullwidth">
-                  <span className="icon is-small">
-                    <FaTwitter />
-                  </span>
-                  <span>Sign in with Twitter</span>
-                </button>
+              <div className="mb-5">
+                <small>
+                  <p className="has-text-dark">Or login with</p>
+                </small>
+              </div>
+              <div className="columns">
+                <div className="column">
+                  <div className="field is-grouped is-flex is-justify-content-center">
+                    <p className="control">
+                      <button
+                        className="button is-responsive is-danger is-small"
+                        href="#"
+                      >
+                        <span className="icon">
+                          <FaGoogle />
+                        </span>
+                        <span className="has-text-weight-semibold">Google</span>
+                      </button>
+                    </p>
+                    <p className="control">
+                      <button className="button is-responsive is-dark is-small">
+                        <span className="icon">
+                          <FaFacebookF />
+                        </span>
+                        <span className="has-text-weight-semibold">
+                          Facebook
+                        </span>
+                      </button>
+                    </p>
+                    <p className="control">
+                      <button className="button is-responsive is-info is-small">
+                        <span className="icon is-small">
+                          <FaTwitter />
+                        </span>
+                        <span className="has-text-weight-semibold">
+                          Twitter
+                        </span>
+                      </button>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </form>
