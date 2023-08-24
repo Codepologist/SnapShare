@@ -30,12 +30,12 @@ const Login = () => {
             </div>
             <div className="field is-grouped">
               <p className="control">
-                <button className="button is-medium is-primary mb-4">
+                <button className="button is-small is-primary mb-4 has-text-weight-semibold">
                   Log in
                 </button>
               </p>
               <p className="control">
-                <a className="button is-ghost no-focus-outline is-medium has-text-dark">
+                <a className="button is-ghost no-focus-outline is-small has-text-dark">
                   <span style={{ fontSize: "12px" }}> Forgot password?</span>
                 </a>
               </p>
