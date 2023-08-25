@@ -17,12 +17,6 @@ $family-monospace: "Lobster", sans-serif;
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
 
-*,
-body {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 // Hide Scrollbar
 .hide-scrollbar::-webkit-scrollbar {
