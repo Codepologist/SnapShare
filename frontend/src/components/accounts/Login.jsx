@@ -1,7 +1,11 @@
-import { FaFacebookF, FaGoogle, FaTwitter } from "react-icons/fa";
+import { GoogleLogin } from "@react-oauth/google";
+// import { FaFacebookF, FaGoogle, FaTwitter } from "react-icons/fa";
 import "./Login.scss";
+// import { Link } from "react-router-dom";
 
 const Login = () => {
+const user = false;
+
   return (
     <section className="section is-relative py-20">
       <div className="container">
@@ -52,17 +56,31 @@ const Login = () => {
               </div>
               <div className="columns">
                 <div className="column">
-                  <div className="field is-grouped is-flex is-justify-content-center">
+                  <div className="is-flex is-justify-content-center">
+                    {user ? (
+                      <div>Logged In</div>
+                    ) : (
+                      <GoogleLogin
+                        onSuccess={(CredentialResponse) => {
+                          console.log(CredentialResponse);
+                        }}
+                        onError={() => {
+                          console.log("Login Failed");
+                        }}
+                      />
+                    )}
+                  </div>
+                  {/*   <div className="field is-grouped is-flex is-justify-content-center">
                     <p className="control">
-                      <button
+                      <Link
                         className="button is-responsive is-danger is-small"
-                        href="#"
+                        to="/"
                       >
                         <span className="icon">
                           <FaGoogle />
                         </span>
                         <span className="has-text-weight-semibold">Google</span>
-                      </button>
+                      </Link>
                     </p>
                     <p className="control">
                       <button className="button is-responsive is-dark is-small">
@@ -84,7 +102,7 @@ const Login = () => {
                         </span>
                       </button>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
